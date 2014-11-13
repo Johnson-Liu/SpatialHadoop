@@ -44,7 +44,7 @@ public class KdTree {
      * Adds the point p to the set (if it is not already in the set).
      */
     public void insert(Point2D p) {
-        root = insert(root, p, true);
+        root = insert(root, p, true);   //vertical split
     }
 
     private Node insert(Node node, Point2D point, boolean vertical) {
