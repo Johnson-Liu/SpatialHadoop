@@ -60,7 +60,7 @@ public class KdTree {
 
         Comparator<Point2D> comparator = Point2D.Y_ORDER;
         if (vertical) {
-            comparator = Point2D.X_ORDER;
+            comparator = Point2D.X_ORDER;   //compare by x coordinates
         }
 
         int cmp = comparator.compare(point, nodePoint);
